@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/css.css">
+	<link rel="stylesheet" href="CSS\css.css">
+	<link rel = "shortcut icon" type = "image/x-icon" href = "CSS\3.png"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poor+Story&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>CSS Selectors</title>
 </head>
 
@@ -18,29 +22,29 @@
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
             <li>Simple selectors (select elements based on name, id, class)</li>
-            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
-            <li>Pseudo-class selectors (select elements based on a certain state)
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors </a>(select elements based on a specific relationship between them)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors </a> (select elements based on a certain state)
             </li>
-            <li>Pseudo-elements selectors (select and style a part of an element)</li>
-            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo-elements selectors</a> (select and style a part of an element)</li>
+            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp">Attribute selectors </a>(select elements based on an attribute or attribute value)</li>
         </ul>
     </div>
     <hr>
-    <h2 class="selector">The CSS <span>element</span> Selector</h2>
-    <p>The element selector selects HTML elements based on the element <span>name</span> (body, p, h1, h5, a, div, etc.).</p>
+    <h2 class="selector">The CSS <span class="spanish">element</span> Selector</h2>
+    <p>The element selector selects HTML elements based on the element <span class="spanish">name</span> (body, p, h1, h5, a, div, etc.).</p>
     <hr>
-    <h2 class="selector">The CSS <span>id</span> Selector</h2>
+    <h2 class="selector">The CSS <span class="spanish">id</span> Selector</h2>
     <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
-    <p>The id of an element is unique withi a page, so the id selector is used to select one unique element!</p>
-    <p>To select an element with a specific id, write a hash <span>(#)</span> character, followed by the id of the element.</p>
+    <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+    <p>To select an element with a specific id, write a hash <span class="spanish">(#)</span> character, followed by the id of the element.</p>
     <hr>
-    <h2 class="selector">The CSS <span>class</span> Selector</h2>
+    <h2 class="selector">The CSS <span class="spanish">class</span> Selector</h2>
     <p>The class selector selects HTML elements with a specific class attribute.</p>
-    <p>To select elements with a specific class, write a period <span>(.)</span> character, followed by the class name.</p>
+    <p>To select elements with a specific class, write a period <span class="spanish">(.)</span> character, followed by the class name.</p>
     <hr>
 
-    <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
-    <p>The universal selector <span>(*)</span> selects all HTML elements on the page.</p>
+    <h2 id="universal">The CSS <span class="spanish" >Universal</span> Selector</h2>
+    <p>The universal selector <span class="spanish" >(*)</span> selects all HTML elements on the page.</p>
 
     <div>
         <p>Use our <a href="https://www.w3schools.com/cssref/trysel.asp" target="_blank">CSS Selector Tester</a> to demonstrate the different selectors. </p>
@@ -52,12 +56,47 @@
             <h3>CSS Syntax</h3>
             <img src="./resources/regla_css.jpg" alt="">
         </div>
-        <div>
-            <h3>All CSS Simple Selectors</h3>
-            <img src="./resources/selectors.png" alt="">
-        </div>
     </div>
-
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-1wig">Selector</th>
+    <th class="tg-0lax"><span style="font-weight:bold">Example</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Example description</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-kftd"><span style="font-style:italic;text-decoration:underline">#id</span></td>
+    <td class="tg-kftd">#firstname</td>
+    <td class="tg-kftd">Selects the element with<br>the id="firstname"</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-style:italic;text-decoration:underline">.class</span></td>
+    <td class="tg-0lax">.intro</td>
+    <td class="tg-0lax">Selects all elements with <br>class="intro"</td>
+  </tr>
+  <tr>
+    <td class="tg-kftd"><span style="font-style:italic;text-decoration:underline">element.class</span></td>
+    <td class="tg-kftd">p.intro</td>
+    <td class="tg-kftd">Selects only &lt;p&gt; elements with<br>class="intro"</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-style:italic;text-decoration:underline">*</span></td>
+    <td class="tg-0lax">*</td>
+    <td class="tg-0lax">Selects all elements</td>
+  </tr>
+  <tr>
+    <td class="tg-kftd"><span style="font-style:italic;text-decoration:underline">element</span></td>
+    <td class="tg-kftd">p</td>
+    <td class="tg-kftd">Selects all &lt;p&gt; elements</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-style:italic;text-decoration:underline">element,element,..</span></td>
+    <td class="tg-0lax">div,p</td>
+    <td class="tg-0lax">Selects all &lt;div&gt; elements and<br>all &lt;p&gt; elements</td>
+  </tr>
+</tbody>
 </body>
 
 </html>
