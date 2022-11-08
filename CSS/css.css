@@ -1,12 +1,15 @@
 * { /*Regla 1 y Regla 6 */
 
-	font-family: Arial;
+	font-family: Roboto;
 
 }
 body { /* regla 2 */
 	margin: auto;
 	padding-right: 20%;
 	padding-left: 20%;
+}
+#universal {
+	color: lightgoldenrodyellow;
 }
 h1 { /*regla 3 */
 	text-decoration: underline;
@@ -27,7 +30,7 @@ h2,[class$="selector"] { /* Regla 7 */
 	border-radius: 5px;
 	color: white;
 }
-span { /*Regla 8 */
+[class$="spanish"] { /*Regla 8 */
 	font-weight: 900;
 	background-color: black;
 	color: white;
@@ -45,4 +48,42 @@ img { /*Regla 12 */
 	width: 100%;
 	border: solid darkcyan 1px;
 	border-radius: 5px;
+}
+.tg {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-radius: 5px;
+	width: 100%;
+	border: none;
+}
+.tg td{
+	border: none;
+	font-family: sans-serif;
+	font-size:14px;
+    overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg th {
+	border: none;
+	font-family: sans-serif;
+	font-size:14px;
+    font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg .tg-1wig {
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-kftd {
+	background-color:#efefef;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-0lax {
+	text-align:left;
+	vertical-align:top
 }
